@@ -1,0 +1,21 @@
+{
+  "name": "centi",
+  "version": "1.0.0",
+  "description": "winit coding challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jangelet/centi.git"
+  },
+  "keywords": ["winit"],
+  "author": "jangelet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jangelet/centi/issues"
+  },
+  "homepage": "https://github.com/jangelet/centi#readme"
+}
