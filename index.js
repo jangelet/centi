@@ -1,14 +1,14 @@
-const http = require('http');
+const express = require('express');
+const app = express();
+const Vibrant = require('node-vibrant');
 
-const hostname = '127.0.0.1';
-const port = 3000;
+var colors;
 
-const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello World\n');
-});
+//vibrant object created from uploaded image
+let v = new Vibrant('/Users/JANG3LET/Desktop/IMG_2303.jpg');
+//gets RGB palette values from vibrant object, assigns to colors
+v.getPalette((err, palette) => (colors = palette));
 
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
-});
+app.get('/', (req, res) => res.(colors));
+
+app.listen(3000, () => console.log('Centi listening on port 3000!'));
