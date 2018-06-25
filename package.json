@@ -11,11 +11,19 @@
     "type": "git",
     "url": "git+https://github.com/jangelet/centi.git"
   },
-  "keywords": ["winit"],
+  "keywords": [
+    "winit"
+  ],
   "author": "jangelet",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jangelet/centi/issues"
   },
-  "homepage": "https://github.com/jangelet/centi#readme"
+  "homepage": "https://github.com/jangelet/centi#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "node-vibrant": "^3.0.0"
+  }
 }
