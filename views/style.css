@@ -1,5 +1,35 @@
-.colorBox {
-  background-color: #cfc;
-  padding: 10px;
-  border: 1px solid green;
+#demobox0 {
+  background-color: rgb(170, 199, 33);
+  height: 200px;
+  width: 100%;
+}
+
+#demobox1 {
+  background-color: rgb(98, 153, 220);
+  height: 200px;
+  width: 100%;
+}
+
+#demobox2 {
+  background-color: rgb(80, 98, 11);
+  height: 200px;
+  width: 100%;
+}
+
+#demobox3 {
+  background-color: rgb(121, 141, 61);
+  height: 200px;
+  width: 100%;
+}
+
+#demobox4 {
+  background-color: rgb(86, 195, 135);
+  height: 200px;
+  width: 100%;
+}
+
+#demobox5 {
+  background-color: rgb(61, 72, 38);
+  height: 200px;
+  width: 100%;
 }

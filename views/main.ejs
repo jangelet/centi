@@ -13,28 +13,32 @@
     <div class="container">
       <h1 style="background-color:
       <%-color.Vibrant._rgb[0] %> color.Vibrant._rgb[0];">...</h1>
-      <%- JSON.stringify(color.Vibrant._rgb[0]) %>
+      <!-- <%- JSON.stringify(color) %> -->
+      <%- console.log("TEH: " + color) %>
+
+
     </div>
 
+    <!-- <% for(var key in color) { %>
+      <% for (var key2 in color[key]){%>
+       <%- console.log(color[key][key2]) %>
+    <% } } %> -->
 
+    <!-- <%  Object.keys(color).forEach(function (key) { %>
+        <%- console.log(Object.values(key)) %>
+   <% }) %> -->
 
     <div class="colorBox" id="demobox0">
-      This is a demo box to illustrate the code given in thesitewizard.com's tutorial on creating coloured boxes.
     </div>
     <div class="colorBox" id="demobox1">
-      This is a demo box to illustrate the code given in thesitewizard.com's tutorial on creating coloured boxes.
     </div>
     <div class="colorBox" id="demobox2">
-      This is a demo box to illustrate the code given in thesitewizard.com's tutorial on creating coloured boxes.
     </div>
     <div class="colorBox" id="demobox3">
-      This is a demo box to illustrate the code given in thesitewizard.com's tutorial on creating coloured boxes.
     </div>
     <div class="colorBox" id="demobox4">
-      This is a demo box to illustrate the code given in thesitewizard.com's tutorial on creating coloured boxes.
     </div>
     <div class="colorBox" id="demobox5">
-      This is a demo box to illustrate the code given in thesitewizard.com's tutorial on creating coloured boxes.
     </div>
   </body>
 </html>
